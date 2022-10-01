@@ -1,5 +1,6 @@
 # Command
 - vagrant init ubuntu/bionic64
+- Config Vagrant: https://gist.github.com/LondonAppDev/199eef145a21587ea866b69d40d28682
 - vagrant up 
 - vagrant ssh
 - python -m venv ~/env
