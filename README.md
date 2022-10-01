@@ -1,5 +1,6 @@
 # Command
-- vagrant up
+- vagrant init ubuntu/bionic64
+- vagrant up 
 - vagrant ssh
 - python -m venv ~/env
 - source ~/env/bin/avtivate
