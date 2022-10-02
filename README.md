@@ -1,8 +1,11 @@
 # Command
-- vagrant up
+- vagrant init ubuntu/bionic64
+- Config Vagrant: https://gist.github.com/LondonAppDev/199eef145a21587ea866b69d40d28682
+- .gitignore link: https://gist.github.com/LondonAppDev/dd166e24f69db4404102161df02a63ff
+- vagrant up 
 - vagrant ssh
 - python -m venv ~/env
-- source ~/env/bin/avtivate
+- source ~/env/bin/activate
 - pip install -r requirements.txt 
 - django-admin.py startproject profiles_project .
 - python manage.py startapp profiles_api
