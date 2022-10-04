@@ -85,8 +85,8 @@ class HelloViewSet(viewsets.ViewSet):
         """Handle remove an object"""
         return Response({'method': 'DELETE'})
 
-class UserProfileViewSet(viewsets.ViewSet):
+class UserProfileViewSet(viewsets.ModelViewSet):
     """Handle creating and updating profiles"""
 
     serializer_class = serializers.UserProfileSerializer
-    querryset = models.UserProfile.objects.all()
+    queryset = models.UserProfile.objects.all()
